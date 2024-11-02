@@ -26,22 +26,22 @@ div{
 img{
     height: 150px;
     width: 150px;
-    transition: all 9s;
+    
 }
 .btn1:hover~img{
 
     transform: rotate(360deg);
-    transition: all 12s;
+    transition: all 9s;
 }
 .btn2:hover~img{
-    transform: rotate(360deg);
+    transform: rotate(500deg);
     transition: all 8s;
 }
 .btn3:hover~img{
-    transform: rotate(360deg);
+    transform: rotatez(700deg);
     transition: all 4s;
 }
 .btn4:hover~img{
-    transform: rotate(360deg);
+    transform: rotate(1000deg);
     transition: all 1s;
 }
